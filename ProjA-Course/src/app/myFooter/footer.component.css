@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8em;
+    background-color: #1F2833;
+}
+
+footer div ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li:first-child {
+    margin-right: 1em;
+}
+
+li>a, p {
+    font-family: 'Arvo', serif;
+    color: #C5C6C7;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: white;
+}
+
+p {
+    text-align: center;
+}

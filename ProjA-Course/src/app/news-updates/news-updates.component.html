@@ -1,1 +1,27 @@
-<p>news-updates works!</p>
+<div id="news">
+<div class="alert alert-secondary text-capitalize" role="alert">
+    news from The coding world
+  </div>
+<div class="row mt-3">
+<div *ngFor="let news of newsUpdates" class="col-12 col-md-6 col-lg-4 d-flex align-items-strech">
+    <div class="card text-center">
+        <div class="card-header">
+        Featured
+        </div>
+    <div class="card">
+        <img src="{{ news.img }}" class="card-img-top" alt="News Image Picture">
+    <div class="card-body">
+      <h5 class="card-title text-capitalize">{{news.topic}}</h5>
+      <p class="card-text">{{news.text}}</p>
+      <a href="{{ news.link }}" target="_blank" class="btn btn-primary">Read More</a>
+    </div>
+    <small><div class="card-footer text-muted">
+     Posted 2 days ago
+    </div></small>
+    </div>
+    </div>
+</div>
+</div>
+</div>
+
+<!-- -->

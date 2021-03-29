@@ -1,0 +1,17 @@
+Project Members: Faris, Julia, Bettina, Aleksandra, Martin
+
+Project Leader: Martin 
+Leader Tasks: project overview/progress surveillance
+Project Topic: Project A Course Landingpage
+Project Theme: Angular Courses
+
+Technologies used: Angular, Bootstrap where nessesary - main work in CSS, Mind-Master, Trello-Kanbanboard
+
+Project meetings: mind. Standup 1x at 09:00h
+Nameing convention: camelcase
+
+Project Presentation: creation start on wednesday
+
+Lunch time: 12:00 - 13:00
+Website Style Research till 13:15
+Meeting: 13:15

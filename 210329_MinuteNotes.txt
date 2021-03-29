@@ -16,6 +16,12 @@ Lunch time: 12:00 - 13:00
 Website Style Research till 13:15
 Meeting: 13:15
 
-Style:
+Website-Style:
 https://visme.co/blog/website-color-schemes/
 Scheme 12
+Color-Scheme: 
+	Black #0B0C10, 
+	Dark Grey #1F2833, 
+	Light Grey #C5C6C7, 
+	Light Green #66FCF1, 
+	Dark Green 45A29E

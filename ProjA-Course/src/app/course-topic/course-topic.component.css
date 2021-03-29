@@ -1,0 +1,31 @@
+.wrapper {
+    background-color: #45A29E;
+    border: solid 0.5em rgba(5, 5, 5, 0.7);
+    box-shadow: 0.75em 0.5em 0.5em #1F2833;
+    border-radius: 2%;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    height: 17vw;
+}
+
+h1 {
+    text-align: center;
+    color: #C5C6C7;
+}
+
+p {
+    text-align: center;
+}
+
+.heading_wrapper {
+    height: 20vw;
+    background-color: rgba(255, 255, 255, 0.666);
+    color: black;
+    border: #C5C6C7 solid 10px 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

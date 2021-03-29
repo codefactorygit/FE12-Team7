@@ -30,7 +30,7 @@ body {
 }
 
 #pricePlans #plans .plan {
-	background: #fff;
+	background: rgba(189, 225, 226, 0.308);
 	float: left;
 	width: 100%;
 	text-align: center;
@@ -38,7 +38,7 @@ body {
 	margin: 0 0 20px 0;
 
 	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-	box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+	box-shadow: 0 1px 3px rgba(190, 158, 158, 0.1);
 }
 
 .planContainer .title h2 {

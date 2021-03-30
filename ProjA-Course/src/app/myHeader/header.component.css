@@ -23,6 +23,7 @@ header {
     cursor: pointer;
     display: flex;
     align-items: center;
+    margin-left: 1.5em;
 }
 
 .companyContainer .imgContainer {
@@ -73,11 +74,11 @@ header nav ul {
     list-style-type: none;
 }
 
-header nav u li {
+header nav ul li {
     margin-left: 2em;
 }
 
-header nav u li a {
+header nav ul li a {
     position: relative;
     padding-bottom: 0.5em;
     font-family: 'Arvo', serif;
@@ -86,7 +87,7 @@ header nav u li a {
     color: #66FCF1;
 }
 
-nav li a.left:before {
+nav ul li a.left:before {
     content: "";
     position: absolute;
     width: 0;
@@ -98,7 +99,7 @@ nav li a.left:before {
     transition: all 0.3s ease-in-out;
 }
 
-nav li a.left:hover:before {
+nav ul li a.left:hover:before {
     visibility: visible;
     width: 100%;
 }
@@ -107,8 +108,8 @@ nav li a.left:hover:before {
 
 /* Extra small devices (phones, 600px and down) */
 
- @media only screen and (max-width: 1050px) {
-    /* header {
+@media only screen and (max-width: 1050px) {
+    header {
         flex-direction: column;
         align-items: center;
     }
@@ -117,14 +118,12 @@ nav li a.left:hover:before {
     }
     header nav ul {
         flex-direction: column;
-    } */
+    }
     /* Menu Icon */
-    /* .companyContainer a {
+    .companyContainer a {
         display: block;
     }
-
     nav a {
         font-size: 1em;
-    } */
-    
-} 
+    }
+}

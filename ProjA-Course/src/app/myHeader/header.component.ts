@@ -24,4 +24,17 @@ export class HeaderComponent implements OnInit {
       header.style.height = "24em";
     }
   }
+
+  // mediaQuery = window.matchMedia('(max-width: 1050px)');
+
+  // handleTabletChange(e): void {
+  //   if (e.matches) {
+  //     window.alert('Media Query Matched!');
+  //   }
+  // }
+
+  // mediaQuery.addListener(handleTabletChange);  
+  // this.handleTabletChange(mediaQuery);
+  
+
 }

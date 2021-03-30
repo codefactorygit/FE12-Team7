@@ -1,11 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  font-family: "Arvo", serif;
+}
+
 /* Varient 3 */
-.gradient{
-    background: rgb(102, 252, 241);
-    background: linear-gradient(
-      90deg,
-      rgba(102, 252, 241, 1) 0%,
-      rgba(31, 40, 51, 1) 100%
-    );
+/* .gradient {
+  background: rgb(102, 252, 241);
+  background: linear-gradient(
+    90deg,
+    rgba(102, 252, 241, 1) 0%,
+    rgba(31, 40, 51, 1) 100%
+  );
+} */
+
+/* Varient 4 */
+.gradient {
+  background: rgb(31, 40, 51);
+  background: linear-gradient(
+    90deg,
+    rgba(31, 40, 51, 1) 0%,
+    rgba(102, 252, 241, 1) 100%
+  );
 }
 
 /* Varient 2 */

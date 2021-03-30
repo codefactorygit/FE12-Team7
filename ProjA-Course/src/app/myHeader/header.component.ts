@@ -25,6 +25,7 @@ export class HeaderComponent implements OnInit {
     }
   }
 
+ 
   // mediaQuery = window.matchMedia('(max-width: 1050px)');
 
   // handleTabletChange(e): void {

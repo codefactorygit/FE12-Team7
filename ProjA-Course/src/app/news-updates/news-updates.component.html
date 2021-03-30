@@ -1,14 +1,30 @@
-<div id="news">
+<img src="..\..\assets\img\wave-information-top.svg" id="informationImgTop">
+<div id="newsUpdates">
 <div class="alert alert-secondary text-capitalize" role="alert">
     news from The coding world
   </div>
 <div class="row mt-3">
-<div *ngFor="let news of newsUpdates" class="col-12 col-md-6 col-lg-4 d-flex align-items-strech">
-    <div class="card text-center">
-        <div class="card-header">
+<div *ngFor="let news of newsUpdates" class="col-12 col-md-6 col-lg-3 d-flex align-items-strech">
+    <!-- <div id="card-body" class="card text-center"> -->
+        <!-- <div class="card-header">
         Featured
-        </div>
-    <div class="card">
+        </div> -->
+        <div class="card text-center" style="width: 15rem;">
+            <img src="{{ news.img }}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <details>
+                    <summary><h5 class="card-title">{{news.topic}}</h5></summary>
+                    <p class="card-text">{{news.text}}</p>
+                </details>
+              <a href="{{ news.link }}" target="_blank" class="btn btn-primary">Read more</a>
+            </div>
+          </div>
+    <!-- </div> -->
+</div>
+</div>
+</div>
+
+<!-- <div class="card">
         <img src="{{ news.img }}" class="card-img-top" alt="News Image Picture">
     <div class="card-body">
       <h5 class="card-title text-capitalize">{{news.topic}}</h5>
@@ -18,10 +34,4 @@
     <small><div class="card-footer text-muted">
      Posted 2 days ago
     </div></small>
-    </div>
-    </div>
-</div>
-</div>
-</div>
-
-<!-- -->
+    </div>-->

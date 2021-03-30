@@ -1,28 +1,13 @@
-#news {
-    background-color: #0B0C10;
-    font-family: arvo;
-}
-.btn {
-    border-color: #0B0C10;;
-    background-color: #66fcf1;
-    color: #0B0C10;
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    font-family: 'Arvo', serif;
 }
 
-.card {
-    background-color: #C5C6C7;
-    color: #0B0C10;
-    border-color: #66fcf1;;
-}
-
-.card-header {
-    background-color: #1F2833;
-    color: white;
-}
-
-img{
-    min-height: 10vh;
-    height: 30vh;
+#informationImgTop{
+    width: 100%;
+    height: 40vh;
     object-fit: cover;
+    object-position: bottom;
 }
 
 .alert {
@@ -36,8 +21,56 @@ img{
     word-spacing: 0.2em;
 }
 
+#newsUpdates {
+    background-color:#45A29E;
+    margin: 0;
+    padding-bottom: 2%;
+}
+.btn {
+    border-color: #0B0C10;;
+    background-color: #66fcf1;
+    color: #0B0C10;
+}
+
+.card {
+    background-color: #C5C6C7;
+    color: #0B0C10;
+    border-color: #66fcf1;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+/* .card-header {
+    background-color: #1F2833;
+    color: white;
+} */
+
+img{
+    min-height: 10vh;
+    height: 20vh;
+    object-fit: cover;
+}
+
+
 /* .card-footer{
     position:absolute;
     bottom:0;
     width:100%;
 }     */
+
+/*  MQ  */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .card {
+        width: 49%;
+        margin: 0 2% 20px 0;
+        padding-bottom: 5%;
+    }
+}
+
+@media screen and ( max-width: 992px){
+    .card {
+        margin-left: 20%;
+        padding-bottom: 5%;
+    }
+}

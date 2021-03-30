@@ -1,13 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    font-family: 'Arvo', serif;
+}
+
+
 .wrapper {
     background-color: #45A29E;
     border: solid 0.5em rgba(5, 5, 5, 0.7);
     box-shadow: 0.75em 0.5em 0.5em #1F2833;
-    border-radius: 2%;
+    border-radius: 0.8em;
     display: flex;
     align-self: center;
     align-items: center;
     justify-content: center;
-    height: 17vw;
+    height: 24vh;
 }
 
 h1 {
@@ -19,13 +25,16 @@ p {
     text-align: center;
 }
 
-.heading_wrapper {
-    height: 20vw;
-    background-color: rgba(255, 255, 255, 0.666);
-    color: black;
-    border: #C5C6C7 solid 10px 5px;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .wrapper {
+        height: 40vh;
+        width: 120vw;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .wrapper {
+        height: 20vh;
+        width: 80vw;
+    }
 }

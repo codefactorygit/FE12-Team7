@@ -10,6 +10,7 @@ export class HeaderComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    this.mediaQuery.addListener(this.handleTabletChange);  
   }
 
   showHide(): void {
@@ -25,16 +26,12 @@ export class HeaderComponent implements OnInit {
     }
   }
 
-  // mediaQuery = window.matchMedia('(max-width: 1050px)');
+  handleTabletChange(e) {
+    if (e.matches) {
+      window.alert('Media Query Matched!');
+    }
+  }
 
-  // handleTabletChange(e): void {
-  //   if (e.matches) {
-  //     window.alert('Media Query Matched!');
-  //   }
-  // }
-
-  // mediaQuery.addListener(handleTabletChange);  
-  // this.handleTabletChange(mediaQuery);
-  
+  mediaQuery = window.matchMedia('(max-width: 1050px)');
 
 }

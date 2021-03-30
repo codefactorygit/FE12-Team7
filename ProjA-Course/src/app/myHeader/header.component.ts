@@ -11,4 +11,17 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+  showHide(): void {
+    let icon: HTMLElement = document.getElementById("myLinks");
+    let header: HTMLElement = document.querySelector("header");
+
+    if (icon.style.display === "block") {
+      icon.style.display = "none";
+      header.style.height = "initial";
+    } else {
+      icon.style.display = "block";
+      header.style.height = "24em";
+    }
+  }
 }

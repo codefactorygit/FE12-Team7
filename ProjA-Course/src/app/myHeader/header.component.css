@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* General Rules */
+
 * {
     padding: 0;
     margin: 0;
@@ -6,14 +8,16 @@
 }
 
 header {
-    /* position: fixed; */
+    position: fixed;
+    z-index: 1000;
     display: flex;
     justify-content: space-around;
     height: 8em;
     width: 100%;
     background-color: #0B0C10;
-    /* background-color: #1F2833; */
 }
+
+/* Company Name/Logo - Section */
 
 .companyContainer {
     cursor: pointer;
@@ -46,20 +50,34 @@ header {
     font-weight: 600;
 }
 
-nav {
+/* Icon - Menu */
+
+.companyContainer a {
+    display: none;
+    margin-left: 2em;
+}
+
+.companyContainer a img {
+    width: 6em;
+    height: auto;
+}
+
+/* Navigation - Section */
+
+header nav {
     margin: auto 0;
 }
 
-ul {
+header nav ul {
     display: flex;
     list-style-type: none;
 }
 
-li {
+header nav u li {
     margin-left: 2em;
 }
 
-a {
+header nav u li a {
     position: relative;
     padding-bottom: 0.5em;
     font-family: 'Arvo', serif;
@@ -68,7 +86,7 @@ a {
     color: #66FCF1;
 }
 
-a.left:before {
+nav li a.left:before {
     content: "";
     position: absolute;
     width: 0;
@@ -80,7 +98,7 @@ a.left:before {
     transition: all 0.3s ease-in-out;
 }
 
-a.left:hover:before {
+nav li a.left:hover:before {
     visibility: visible;
     width: 100%;
 }
@@ -89,4 +107,24 @@ a.left:hover:before {
 
 /* Extra small devices (phones, 600px and down) */
 
-@media only screen and (max-width: 600px) {}
+ @media only screen and (max-width: 1050px) {
+    /* header {
+        flex-direction: column;
+        align-items: center;
+    }
+    header nav {
+        display: none;
+    }
+    header nav ul {
+        flex-direction: column;
+    } */
+    /* Menu Icon */
+    /* .companyContainer a {
+        display: block;
+    }
+
+    nav a {
+        font-size: 1em;
+    } */
+    
+} 

@@ -7,9 +7,12 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 5em;
     width: 100%;
     background-color: #0B0C10;
+}
+
+footer div {
+    margin: 1em 0;
 }
 
 footer div ul {

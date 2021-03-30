@@ -21,7 +21,7 @@ export class HeaderComponent implements OnInit {
       header.style.height = "initial";
     } else {
       icon.style.display = "block";
-      header.style.height = "24em";
+      // header.style.height = "24em";
     }
   }
 

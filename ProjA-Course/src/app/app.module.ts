@@ -13,6 +13,9 @@ import { InformationComponent } from './information/information.component';
 import { CourseTopicComponent } from './course-topic/course-topic.component';
 import { NewsUpdatesComponent } from './news-updates/news-updates.component';
 import { CourseFormatesComponent } from './course-formates/course-formates.component';
+import { VideoSectionComponent } from './video-section/video-section.component';
+import { YouTubePlayerModule } from '@angular/youtube-player';
+
 
 @NgModule({
   declarations: [
@@ -27,10 +30,12 @@ import { CourseFormatesComponent } from './course-formates/course-formates.compo
     CourseTopicComponent,
     NewsUpdatesComponent,
     CourseFormatesComponent,
+    VideoSectionComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    YouTubePlayerModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,13 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    font-family: 'Arvo', serif;
+}
+
 /* 
     grau #c5c6c7
     schwarz #0b0c10
     türkis #66fcf1
     Dark Green #45A29E
 */
-
+#informationImgTop{
+    width: 100%;
+    height: 40vh;
+    object-fit:cover;
+    object-position:bottom;
+}
 #information {
     width: 100%;
-    border-top: #0b0c10 solid 6px;
+    /* border-top: #0b0c10 solid 6px; */
     /* border-top-left-radius: 15px; */
     background-color:#45A29E;
 }
@@ -47,16 +57,27 @@ button.myNavLink.active {
 }
 
 
-
-
-
-/* == LOCATION */
-
-#v-pills-profile img {
-    width: 50vw;
+#informationImgBottom{
+    width: 100%;
+    height: 40vh;
+    object-fit:cover;
+    object-position:top;
 }
 
-#v-pills-messages img {
-    width: 50vw;
+/* == MEDIA  */
+
+@media screen and ( max-width: 768px){
+    
+    #informationImgTop, #informationImgBottom{
+        height: 20vh;
+    }
+
 }
 
+@media screen and ( max-width: 992px){
+    
+    #informationImgTop, #informationImgBottom{
+        height: 30vh;
+    }
+
+}

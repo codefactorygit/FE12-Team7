@@ -12,38 +12,38 @@
 
 .alert {
     background-color: #45A29E;
-    color: #0B0C10;
+    color: white;
     text-align: center;
     font-weight: bold;
     font-size: 2em;
-    text-shadow: 2px 2px #C5C6C7;
-    border-color: #0B0C10;
+    text-shadow: 2px 2px #0B0C10;;
+    border-color:#45A29E;
     word-spacing: 0.2em;
+    padding-bottom: 10vh;
 }
 
 #newsUpdates {
     background-color:#45A29E;
     margin: 0;
-    padding-bottom: 2%;
+    padding-bottom: 5vh;
 }
 .btn {
     border-color: #0B0C10;;
-    background-color: #66fcf1;
+    background-color: #C5C6C7;
     color: #0B0C10;
+}
+
+.btn:hover {
+    background-color: #66fcf1;
 }
 
 .card {
     background-color: #C5C6C7;
     color: #0B0C10;
     border-color: #66fcf1;
-    margin-left: 2rem;
+    margin-left: 4rem;
     margin-right: 2rem;
 }
-
-/* .card-header {
-    background-color: #1F2833;
-    color: white;
-} */
 
 img{
     min-height: 10vh;
@@ -51,12 +51,6 @@ img{
     object-fit: cover;
 }
 
-
-/* .card-footer{
-    position:absolute;
-    bottom:0;
-    width:100%;
-}     */
 
 /*  MQ  */
 

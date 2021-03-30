@@ -1,0 +1,11 @@
+Next Meeting at 15:00
+
+Faris: change color direction of hero, add video to course topic section.
+
+Bettina: make cards smaller, less text, add waves
+
+Julia: add waves, add content
+
+Aleksandra: change button style, make all card style consistent
+
+Martin: sticky header, add effect

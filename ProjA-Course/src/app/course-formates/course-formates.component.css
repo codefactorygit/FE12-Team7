@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
 html,html a {
 	-webkit-font-smoothing: antialiased;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
@@ -117,8 +120,7 @@ body {
 }
 
 .planContainer .button a.bestPlanButton {
-	color: #fff;
-	background: #45A29F;
+	color: rgb(0, 0, 0);
 	border: 2px solid #45A29F;
 }
 
@@ -211,5 +213,9 @@ body {
     color:black;
 }
 
+}
+
+#courses {
+	margin-top: 7em;
 }
 

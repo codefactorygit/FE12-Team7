@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    font-family: 'Arvo', serif;
+}
+
+#testimonials {
+    width: 90%;
+    border-radius: 15px;
+    border: #0B0C10 1px solid;
+    box-shadow: 0.75em 0.5em 0.5em #1F2833;
+    margin: 2vh auto;
+    margin-bottom: 6vh;
+}
+
+h2 {
+    background-color: #45A29E;
+    width: 100%;
+    color: #0B0C10;
+    padding: 2px;
+}
+
+.testimonialContainer{
+    width: 80%;
+}
+
+.testimonial > img {
+    border-radius: 50%;
+    width: 150px;
+    height: 110px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.testimonial:nth-of-type(2){
+    justify-items: end;
+}
+
+.testimonialName {
+    font-weight: bold;
+}
+
+.testimonialJob{
+    font-style: italic;
+}
+
+

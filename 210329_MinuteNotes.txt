@@ -5,7 +5,7 @@ Leader Tasks: project overview/progress surveillance
 Project Topic: Project A Course Landingpage
 Project Theme: Angular Courses
 
-Technologies used: Angular, Bootstrap where nessesary - main work in CSS, Mind-Master, Trello-Kanbanboard
+Technologies used: Angular, Bootstrap where nessesary - main work in CSS, Mind-Master: https://www.mindmeister.com/1839198601, Trello-Kanbanboard: https://trello.com/b/JqkUhOT2/team-7-board
 
 Project meetings: mind. Standup 1x at 09:00h
 Nameing convention: camelcase

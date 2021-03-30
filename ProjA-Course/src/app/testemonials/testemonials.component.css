@@ -6,17 +6,20 @@
 #testimonials {
     width: 90%;
     border-radius: 15px;
-    border: #0B0C10 1px solid;
-    box-shadow: 0.75em 0.5em 0.5em #1F2833;
+    /* border: #0B0C10 1px solid; */
+    /* box-shadow: 0.75em 0.5em 0.5em #1F2833; */
     margin: 2vh auto;
     margin-bottom: 6vh;
 }
 
 h2 {
     background-color: #45A29E;
-    width: 100%;
+    width: 55%;
     color: #0B0C10;
     padding: 2px;
+    margin: auto;
+    margin-bottom: 5vh;
+    border-radius: 15px;
 }
 
 .testimonialContainer{

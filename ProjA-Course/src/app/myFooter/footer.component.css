@@ -16,8 +16,16 @@ footer div ul {
     list-style-type: none;
 }
 
+li {
+    cursor: pointer;
+}
+
 li:first-child {
     margin-right: 1em;
+}
+
+li a {
+    transition: all 0.2s ease-in-out;
 }
 
 li>a, p {

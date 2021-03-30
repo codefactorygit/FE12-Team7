@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
 * {
     padding: 0;
     margin: 0;
@@ -7,14 +6,17 @@
 }
 
 header {
+    /* position: fixed; */
     display: flex;
     justify-content: space-around;
     height: 8em;
+    width: 100%;
     background-color: #0B0C10;
     /* background-color: #1F2833; */
 }
 
 .companyContainer {
+    cursor: pointer;
     display: flex;
     align-items: center;
 }
@@ -58,12 +60,33 @@ li {
 }
 
 a {
+    position: relative;
+    padding-bottom: 0.5em;
     font-family: 'Arvo', serif;
     font-size: 1.1rem;
     text-decoration: none;
-    color: #66FCF1
+    color: #66FCF1;
 }
 
-a:hover {
-    text-decoration: underline;
+a.left:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #66FCF1;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
 }
+
+a.left:hover:before {
+    visibility: visible;
+    width: 100%;
+}
+
+/* Media Query Mobile */
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {}

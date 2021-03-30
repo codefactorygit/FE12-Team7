@@ -1,21 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    font-family: 'Arvo', serif;
+}
+
 #testimonials {
     width: 90%;
     border-radius: 15px;
     border: #0B0C10 1px solid;
     box-shadow: 0.75em 0.5em 0.5em #1F2833;
-    margin: 4vh auto;
+    margin: 2vh auto;
+    margin-bottom: 6vh;
 }
 
 h2 {
     background-color: #45A29E;
     width: 100%;
     color: #0B0C10;
-    margin: 0;
-    padding: 0;
-    padding-bottom: 2px;
-    
-    /* border-bottom: #0B0C10 solid 2px; */
-    /* margin: auto */
+    padding: 2px;
 }
 
 .testimonialContainer{
@@ -24,8 +25,8 @@ h2 {
 
 .testimonial > img {
     border-radius: 50%;
-    width: 100px;
-    height: 150px;
+    width: 150px;
+    height: 110px;
     object-fit: cover;
     object-position: top;
 }
@@ -41,3 +42,5 @@ h2 {
 .testimonialJob{
     font-style: italic;
 }
+
+

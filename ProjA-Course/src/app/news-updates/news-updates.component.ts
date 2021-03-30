@@ -37,18 +37,3 @@ export class NewsUpdatesComponent implements OnInit {
   }
 
 }
-
-
-// {
-//   topic: "'Real' Programming is an Elitist Myth",
-//   text: "Code culture can be solipsistic and exhausting. Programmers fight over semicolon placement and the right way to be object-oriented or functional or whatever else will let them feel in control and smarter and more economically safe, and always I want to shout back: Code isn't enough on its own. We throw code away when it runs out its clock; we migrate data to new databases, so as not to lose one precious bit. Code is a story we tell about data.",
-//   img: "../assets/img/news1.jpeg",
-//   link: "https://www.wired.com/story/databases-coding-real-programming-myth/"
-// },
-
-// {
-//   topic: "Purpose Matters",
-//   text: "Sophie Shawdon, an analytics lead at ClearScore, talks about staying productive in her role and why she prioritises purpose-driven work. Sophie Shawdon is an analytics lead at ClearScore, a fintech business with customers in the UK, Australia, India and South Africa. She works with teams in each of these regions to create strategic insights that help shape the company’s products.",
-//   img: "../assets/img/news4.jpeg",
-//   link: "https://www.siliconrepublic.com/people/clearscore-sophie-shawdon-analytics-lead"
-// },

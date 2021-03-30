@@ -1,1 +1,95 @@
-<p>information works!</p>
+<div id="information">
+    <div class="d-flex align-items-start justify-content-around m-auto" id="informationInner">
+        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <button class="nav-link myNavLink active" id="v-pills-home-tab" data-bs-toggle="pill"
+                data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                aria-selected="true">Teachers</button>
+            <button class="nav-link myNavLink" id="v-pills-profile-tab" data-bs-toggle="pill"
+                data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
+                aria-selected="false">Location</button>
+            <button class="nav-link myNavLink" id="v-pills-messages-tab" data-bs-toggle="pill"
+                data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
+                aria-selected="false">Technologies</button>
+
+        </div>
+        <div class="tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                <!-- * teachers -->
+                <!-- extra div here is needed to make d-flex working with the other pills -->
+                <div class="d-flex flex-wrap">
+
+                    <div class="card m-2" style="width: 18rem;">
+                        <img src="..\..\assets\img\teacher_2.jpg" class="card-img-top cardImg" alt="...">
+                        <div class="card-body">
+                            <p class="fw-bold">George Garcia</p>
+                            <p class="card-text">Founder & CEO of Angozilla. Experience in everything.</p>
+                        </div>
+                    </div>
+
+                    <div class="card m-2" style="width: 18rem;">
+                        <img src="..\..\assets\img\teacher_3.jpg" class="card-img-top cardImg" alt="...">
+                        <div class="card-body">
+                            <p class="fw-bold">George Garcia</p>
+                            <p class="card-text">Founder & CEO of Angozilla. Experience in everything.</p>
+                        </div>
+                    </div>
+
+                    <div class="card m-2" style="width: 18rem;">
+                        <img src="..\..\assets\img\teacher_4.jpg" class="card-img-top cardImg" alt="...">
+                        <div class="card-body">
+                            <p class="fw-bold">George Garcia</p>
+                            <p class="card-text">Founder & CEO of Angozilla. Experience in everything.</p>
+                        </div>
+                    </div>
+
+                    <div class="card m-2" style="width: 18rem;">
+                        <img src="..\..\assets\img\teacher_5.jpg" class="card-img-top cardImg" alt="...">
+                        <div class="card-body">
+                            <p class="fw-bold">George Garcia</p>
+                            <p class="card-text">Founder & CEO of Angozilla. Experience in everything.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <!-- * end teachers-->
+            </div>
+
+            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                <!-- * location -->
+
+                <div class="bg-white card">
+                    <div class="m-3">
+                        <p>Our office and training rooms are located in the heart of the city.</p>
+                        <p>We are on the last floor of an former factory which is pretty cool.</p>
+                    </div>
+                    <img src="..\..\assets\img\location_1.jpg" alt="">
+                </div>
+
+
+                <!-- * end location -->
+            </div>
+
+            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                <!-- * technologies -->
+
+                    <div class="bg-white card">
+                        <div class="m-3">
+                            <p>We use pair programming.</p>
+                            <p>......</p>
+                        </div>
+                        <img src="..\..\assets\img\technologies_1.jpg" alt="">
+                    </div>
+
+
+
+
+                <!-- * end technologies -->
+            </div>
+
+        </div>
+    </div>
+
+</div>

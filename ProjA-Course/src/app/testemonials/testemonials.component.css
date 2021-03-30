@@ -1,0 +1,43 @@
+#testimonials {
+    width: 90%;
+    border-radius: 15px;
+    border: #0B0C10 1px solid;
+    box-shadow: 0.75em 0.5em 0.5em #1F2833;
+    margin: 4vh auto;
+}
+
+h2 {
+    background-color: #45A29E;
+    width: 100%;
+    color: #0B0C10;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 2px;
+    
+    /* border-bottom: #0B0C10 solid 2px; */
+    /* margin: auto */
+}
+
+.testimonialContainer{
+    width: 80%;
+}
+
+.testimonial > img {
+    border-radius: 50%;
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.testimonial:nth-of-type(2){
+    justify-items: end;
+}
+
+.testimonialName {
+    font-weight: bold;
+}
+
+.testimonialJob{
+    font-style: italic;
+}

@@ -1,0 +1,62 @@
+/* 
+    grau #c5c6c7
+    schwarz #0b0c10
+    türkis #66fcf1
+    Dark Green #45A29E
+*/
+
+#information {
+    width: 100%;
+    border-top: #0b0c10 solid 6px;
+    /* border-top-left-radius: 15px; */
+    background-color:#45A29E;
+}
+
+#informationInner{
+    width: 90%;
+    padding: 3vh 0;
+}
+
+.myNavLink {
+    background-color: white;
+    color: #0b0c10;
+    border: #0b0c10 solid 1px;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+button.myNavLink.active {
+    background-color: #0b0c10 !important;
+    color: #66fcf1 !important;
+}
+
+#v-pills-tabContent{
+    width: 80%;
+}
+
+
+/* == TEACHERS */
+
+
+
+.cardImg {
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+    object-position: top;
+}
+
+
+
+
+
+/* == LOCATION */
+
+#v-pills-profile img {
+    width: 50vw;
+}
+
+#v-pills-messages img {
+    width: 50vw;
+}
+

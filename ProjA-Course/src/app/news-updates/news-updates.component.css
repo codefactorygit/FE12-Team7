@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 * {
     font-family: 'Arvo', serif;
+    margin: 0 auto;
 }
 
 #informationImgTop{
@@ -41,7 +42,7 @@
     background-color: #C5C6C7;
     color: #0B0C10;
     border-color: #66fcf1;
-    margin-left: 4rem;
+    margin-left: 3rem;
     margin-right: 2rem;
 }
 

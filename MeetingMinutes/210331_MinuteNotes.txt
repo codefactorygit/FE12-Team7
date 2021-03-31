@@ -14,7 +14,7 @@
 	title no shadow
 
 - Aleksandra:
-	matching font-family
+	matching font-family for all textes and titles
 	title size
 	font colors
 

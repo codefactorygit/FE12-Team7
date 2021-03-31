@@ -6,32 +6,30 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+  mediaQueryMin = window.matchMedia('(min-width: 1051px)');
 
-  constructor() { }
-
-  ngOnInit(): void {
-    this.mediaQuery.addListener(this.handleTabletChange);  
+  constructor() {
+    this.mediaQueryMin.addListener(this.handleTabletChange);
   }
 
-  showHide(): void {
-    let icon: HTMLElement = document.getElementById("myLinks");
-    let header: HTMLElement = document.querySelector("header");
+  ngOnInit(): void {
+  }
 
-    if (icon.style.display === "block") {
-      icon.style.display = "none";
-      header.style.height = "initial";
+  toggleMobileNav(): void {
+    let navElementMobile: HTMLElement = document.getElementById("navMobile");
+
+    if (navElementMobile.style.display === "block") {
+      navElementMobile.style.display = "none";
     } else {
-      icon.style.display = "block";
-      // header.style.height = "24em";
+      navElementMobile.style.display = "block";
     }
+
   }
 
   handleTabletChange(e) {
+    let navbarMobile: HTMLElement = document.getElementById("navMobile");
     if (e.matches) {
-      window.alert('Media Query Matched!');
+      navbarMobile.style.display = "none";
     }
   }
-
-  mediaQuery = window.matchMedia('(max-width: 1050px)');
-
 }

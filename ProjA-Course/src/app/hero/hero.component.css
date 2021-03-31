@@ -2,7 +2,9 @@
 * {
   font-family: "Arvo", serif;
 }
-
+#hero_svg{
+  width:80%;
+}
 /* Varient 3 */
 /* .gradient {
   background: rgb(102, 252, 241);

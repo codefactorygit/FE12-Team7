@@ -11,7 +11,21 @@
 
 /* ================styling the iframe============== */
 
-.videoContainer {
+
+#myContainer{
+  width: 100%;
+  min-height: 20%;
+}
+.imageClass{
+  width:50%;
+  margin:auto
+}
+
+
+/* ================ incomplete solutions for the iframe============== */
+
+
+/* .videoContainer {
   width: 50vw;
   display: grid;
   grid-template-rows: 35vh;
@@ -21,7 +35,9 @@
 .responsive-iframe {
   width: 100%;
   height: 150%;
-}
+} */
+
+
 
 /* .my-container {
   position: relative;

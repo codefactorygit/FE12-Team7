@@ -12,10 +12,10 @@
     margin-bottom: 6vh;
 }
 
-h2 {
-    background-color: #45A29E;
-    width: 55%;
-    color: #0B0C10;
+h1 {
+    /* background-color: #45A29E; */
+    width: 60%;
+    color: #45A29E;
     padding: 2px;
     margin: auto;
     margin-bottom: 5vh;
@@ -46,4 +46,12 @@ h2 {
     font-style: italic;
 }
 
+.navSpace {
+    padding-top: 4em;
+}
 
+@media screen and (max-width: 776px){
+    h1{
+        width: 90%;
+    }
+}

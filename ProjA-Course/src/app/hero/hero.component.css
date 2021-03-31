@@ -2,16 +2,15 @@
 * {
   font-family: "Arvo", serif;
 }
-#hero_svg{
-  width:100%;
+#hero_svg {
+  width: 100%;
 }
-#hero-person{
-  width:50%
+#hero-person {
+  width: 50%;
 }
 
-
-/* Varient 4  for gradient was chosen after a few trials*/
-
+/* Varient 4  for gradient was chosen after a few trials for best style*/
+/* tool used was cssgradient.io */
 .gradient {
   background: rgb(31, 40, 51);
   background: linear-gradient(
@@ -20,4 +19,3 @@
     rgba(102, 252, 241, 1) 100%
   );
 }
-

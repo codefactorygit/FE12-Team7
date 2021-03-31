@@ -1,4 +1,78 @@
 /* You can add global styles to this file, and also import other style files */
+/*
+1. Font Styling
+2. Colors - Bg/ Text
+3. General Classes
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+h1, h2, h3, p, a {
+font-family: 'Arvo', serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+/* Colors */
+/* Black #0B0C10, Dark Grey #1F2833, Light Grey #C5C6C7, Light Green #66FCF1, Dark Green #45A29E */
+
+/* Background Colors */
+.bgBlack {
+    background-color: #0B0C10;
+}
+
+.bgDarkGrey {
+    background-color: #1F2833;
+}
+
+.bgLightGrey {
+    background-color:  #C5C6C7;
+}
+
+.bgWhite {
+    background-color: white;
+}
+
+.bgDarkGreen {
+    background-color: #45A29E;
+}
+
+.bgLightGreen {
+    background-color: #66FCF1;
+}
+
+/* Text - Colors */
+
+.txtBlack {
+    color: #0B0C10;
+}
+
+.txtDarkGrey {
+    color: #1F2833;
+}
+
+.txtLightGrey {
+    color:  #C5C6C7;
+}
+
+.txtWhite {
+    color: white;
+}
+
+.txtDarkGreen {
+    color: #45A29E;
+}
+
+.txtLightGreen {
+    color: #66FCF1;
+}
 
 .navSpace {
     padding-top: 4em;

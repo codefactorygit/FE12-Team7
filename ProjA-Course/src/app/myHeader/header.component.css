@@ -144,9 +144,6 @@ nav ul li a {
     #navDesktop {
         display: none;
     }
-    #navMobile {
-        display: block;
-    }
     /* Menu Icon */
     .leftContainer .btnMenu {
         display: block;

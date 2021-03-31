@@ -2,7 +2,9 @@
 * {
   font-family: 'Arvo', serif;
 }
-
+.text-color-choice{
+  color:#45A29E
+}
 #video {
   background-color: #C5C6C7;
 }

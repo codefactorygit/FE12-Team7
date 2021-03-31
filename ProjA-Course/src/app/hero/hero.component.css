@@ -8,17 +8,9 @@
 #hero-person{
   width:50%
 }
-/* Varient 3 */
-/* .gradient {
-  background: rgb(102, 252, 241);
-  background: linear-gradient(
-    90deg,
-    rgba(102, 252, 241, 1) 0%,
-    rgba(31, 40, 51, 1) 100%
-  );
-} */
 
-/* Varient 4 */
+
+/* Varient 4  for gradient was chosen after a few trials*/
 
 .gradient {
   background: rgb(31, 40, 51);
@@ -29,23 +21,3 @@
   );
 }
 
-/* Varient 2 */
-/* .gradient {
-  background: rgb(31, 40, 51);
-  background: linear-gradient(
-    90deg,
-    rgba(31, 40, 51, 1) 0%,
-    rgba(9, 9, 121, 1) 35%,
-    rgba(102, 252, 241, 1) 100%
-  );
-} */
-
-/* Varient 1 */
-/* .gradient {
-  background: rgb(31, 40, 51);
-  background: linear-gradient(
-    0deg,
-    rgba(31, 40, 51, 1) 0%,
-    rgba(102, 252, 241, 1) 100%
-  );
-} */

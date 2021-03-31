@@ -1,37 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 
-html,html a {
-	-webkit-font-smoothing: antialiased;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
-}
-
-body {
-	font-family: 'Open Sans', sans-serif;
-	background: #875A7B;
-}
-
 #plans,#plans ul,#plans ul li {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
 
-#pricePlans:after {
+/* #pricePlans:after {
 	content: '';
 	display: table;
 	clear: both;
-}
+} */
 
-#pricePlans {
-	zoom: 1;
-}
 
 #pricePlans {
 	max-width: 69em;
 	margin: 0 auto;
+	zoom: 1;
 }
 
+/* section ul li */
 #pricePlans #plans .plan {
 	background: rgba(189, 225, 226, 0.308);
 	float: left;
@@ -54,19 +43,6 @@ body {
     text-shadow: 1px 1px 3px #66FCF1;
 }
 
-.planContainer .title h2.bestPlanTitle {
-	background: #F9F9F9;
-
-	background: -webkit-linear-gradient(top, #475975, #364761);
-	background: -moz-linear-gradient(top, #475975, #364761);
-	background: -o-linear-gradient(top, #475975, #364761);
-	background: -ms-linear-gradient(top, #475975, #364761);
-	background: linear-gradient(top, #475975, #364761);
-	color: rgb(0, 0, 0);
-	border-radius: 5px 5px 0 0;
-}
-
-
 .planContainer .price p {
 	background: #202833;
 
@@ -83,26 +59,17 @@ body {
 	margin: 0 0 1em;
 }
 
+/* second & fourth col */
 .planContainer .price p.bestPlanPrice {
 	background: #45A29E;
 }
 
-.planContainer .price p span {
-	color: #8394ae;
-}
-
-.planContainer .options {
-	margin-top: 10em;
-
-}
 
 .planContainer .options li {
 	font-weight: 500;
 	color: #364762;
 	line-height: 2.5;
 }
-
-
 
 .planContainer .button a {
 	text-transform: uppercase;
@@ -119,26 +86,23 @@ body {
 	margin: 1.5em 0 1.8em;
 }
 
+/* second & fourth col */
 .planContainer .button a.bestPlanButton {
 	color: rgb(0, 0, 0);
 	border: 2px solid #45A29E;
 }
 
-#credits {
-	text-align: center;
-	font-size: .8em;
-	font-style: italic;
-	color: #777;
+#courses {
+	margin-top: 7em;
+	font-family: 'Arvo', serif;
 }
 
-#credits a {
-	color: #333;
+.head2 {
+	color: #45A29E;
 }
 
-#credits a:hover {
-	text-decoration: none;
-}
 
+/* media */
 @media screen and (min-width: 481px) and (max-width: 768px) {
 
 #pricePlans #plans .plan {
@@ -215,12 +179,5 @@ body {
 
 }
 
-#courses {
-	margin-top: 7em;
-	font-family: 'Arvo', serif;
-}
 
-.head2 {
-	color: #45A29E;
-}
 

@@ -1,0 +1,6 @@
+NAMING CONVENTION:
+------------------
+Naming Convention: 'camelCase' (as far as possible)
+
+(for Component-names Angular converted 'camelCase' into 'name-name', 
+footer and header where renamed by hand)

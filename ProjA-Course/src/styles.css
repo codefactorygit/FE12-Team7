@@ -1,10 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
 /*
+Naming Convention & Style Synchronisation 
+
+Naming Convention: we use 'camelCase' 
+(for Component-names Angular converted 'camelCase' into 'name-name', footer and header where renamed by hand)
+
 1. Font Styling
 2. Colors - Bg/ Text
 3. General Classes
 */
 
+/* Font Styling */
 
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
@@ -21,9 +26,10 @@ p {
 }
 
 /* Colors */
-/* Black #0B0C10, Dark Grey #1F2833, Light Grey #C5C6C7, Light Green #66FCF1, Dark Green #45A29E */
+/* Color Scheme: Black #0B0C10, Dark Grey #1F2833, Light Grey #C5C6C7, Light Green #66FCF1, Dark Green #45A29E */
 
 /* Background Colors */
+
 .bgBlack {
     background-color: #0B0C10;
 }
@@ -73,6 +79,8 @@ p {
 .txtLightGreen {
     color: #66FCF1;
 }
+
+/* General Classes */
 
 .navSpace {
     padding-top: 4em;

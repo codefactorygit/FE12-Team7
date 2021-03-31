@@ -66,29 +66,49 @@ header {
 
 /* Navigation - Section */
 
-header nav {
-    margin: auto 0;
-}
-
-header nav ul {
-    display: flex;
-    list-style-type: none;
-}
-
-header nav ul li {
-    margin-left: 2em;
-}
-
-header nav ul li a {
+nav ul li a {
     position: relative;
-    padding-bottom: 0.5em;
     font-family: 'Arvo', serif;
-    font-size: 1.1rem;
     text-decoration: none;
     color: #66FCF1;
 }
 
-nav ul li a.left:before {
+/* Navbar - Mobile */
+
+#navMobile {
+    display: none;
+}
+
+#navMobile ul {
+    flex-direction: column;
+}
+#navMobile ul li {
+    margin-bottom: 2em;
+}
+#navMobile ul li a {
+    font-size: 1.5em;
+}
+
+/* Navigation - Desktop */
+
+#navDesktop {
+    margin: auto 0;
+}
+
+#navDesktop ul {
+    display: flex;
+    list-style-type: none;
+}
+
+#navDesktop ul li {
+    margin-left: 2em;
+}
+
+#navDesktop ul li a {
+    font-size: 1.1rem;
+}
+
+#navDesktop ul li a.left:before {
     content: "";
     position: absolute;
     width: 0;
@@ -100,7 +120,7 @@ nav ul li a.left:before {
     transition: all 0.3s ease-in-out;
 }
 
-nav ul li a.left:hover:before {
+#navDesktop ul li a.left:hover:before {
     visibility: visible;
     width: 100%;
 }
@@ -110,23 +130,21 @@ nav ul li a.left:hover:before {
 /* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 1050px) {
+    
     /*Navbar - Section */
     header {
         flex-direction: column;
         align-items: center;
     }
-    header nav {
+
+    #navDesktop {
         display: none;
     }
-    header nav ul {
-        flex-direction: column;
+
+    #navMobile {
+        display: block;
     }
-    header nav ul li {
-        margin-bottom: 2em;
-    }
-    header nav ul li a {
-        font-size: 1.5em;
-    }
+    
     /* Menu Icon */
     .companyContainer a {
         display: block;

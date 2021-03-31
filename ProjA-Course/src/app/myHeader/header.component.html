@@ -5,14 +5,32 @@
         </div>
         <h1>angu<span>ZILLA</span></h1>
 
-        <a class="btn" (click)="showHide()">
-            <!-- <div> -->
-                <img src="../../assets/img/iconBarsFree.png">
-            <!-- </div> -->
+        <a class="btn" (click)="toggleMobileNav()">
+            <img src="../../assets/img/iconBarsFree.png">
         </a>
     </div>
 
-    <nav id="myLinks">
+    <nav id="navMobile">
+        <ul>
+            <li>
+                <a class="left" (click)="toggleMobileNav()" href="#courseTopic">why angular</a>
+            </li>
+            <li>
+                <a class="left" (click)="toggleMobileNav()" href="#information">about us</a>
+            </li>
+            <li>
+                <a class="left" (click)="toggleMobileNav()" href="#testimonials">testimonials</a>
+            </li>
+            <li>
+                <a class="left" (click)="toggleMobileNav()" href="#courses">courses & prices</a>
+            </li>
+            <li>
+                <a class="left" (click)="toggleMobileNav()" href="#newsUpdates">news & updates</a>
+            </li>
+        </ul>
+    </nav>
+
+    <nav id="navDesktop">
         <ul>
             <li>
                 <a class="left" href="#courseTopic">why angular</a>

@@ -12,9 +12,9 @@
     margin-bottom: 6vh;
 }
 
-h2 {
-    background-color: #45A29E;
-    width: 55%;
+h1 {
+    /* background-color: #45A29E; */
+    width: 60%;
     color: #0B0C10;
     padding: 2px;
     margin: auto;
@@ -46,4 +46,8 @@ h2 {
     font-style: italic;
 }
 
-
+@media screen and (max-width: 776px){
+    h1{
+        width: 90%;
+    }
+}

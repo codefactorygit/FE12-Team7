@@ -1,0 +1,23 @@
+- General:
+	font-family match
+	font-size p and h1 matching from course topic
+	title colors: green on white,... white on green
+	title not enclosed with box, no shadow
+
+- Faris: 
+	hero wave problem 
+	video size in course topic
+	graphic size in hero
+
+- Bettina: 
+	add wave on bottom
+	title no shadow
+
+- Aleksandra:
+	matching font-family for all textes and titles
+	title size
+	font colors
+
+- Julia:
+	testimonials: title font-size see course-topic, color: dark green, no box
+	

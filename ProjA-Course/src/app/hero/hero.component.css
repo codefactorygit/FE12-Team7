@@ -3,7 +3,10 @@
   font-family: "Arvo", serif;
 }
 #hero_svg{
-  width:80%;
+  width:100%;
+}
+#hero-person{
+  width:50%
 }
 /* Varient 3 */
 /* .gradient {

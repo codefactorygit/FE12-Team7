@@ -63,7 +63,9 @@ button.myNavLink.active {
     object-fit:cover;
     object-position:top;
 }
-
+.navSpace {
+    padding-top: 4em;
+}
 /* == MEDIA  */
 
 @media screen and ( max-width: 768px){

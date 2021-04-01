@@ -53,6 +53,14 @@ img{
     object-fit: cover;
 }
 
+details summary { 
+    cursor: pointer;
+  }
+  
+  details summary > * {
+    display: inline;
+  }
+
 /* Bottom Wave */
 #informationImgBottom{
     width: 100%;
@@ -66,7 +74,7 @@ img{
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
     .card {
-        width: 49%;
+        width: 70%;
         margin: 0 2% 20px 0;
         padding-bottom: 5%;
     }

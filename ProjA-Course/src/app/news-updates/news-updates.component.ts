@@ -26,7 +26,7 @@ export class NewsUpdatesComponent implements OnInit {
       img: "../assets/img/news5.jpeg",
       link: "https://techcrunch.com/2021/03/15/neobroker-bitpanda-raises-170m-at-a-1-2b-valuation-to-take-its-trading-platform-beyond-crypto/"
     }, {
-      topic: "'Want to Become a Programmer? The Truth Behind 10 Common Myths",
+      topic: "Want to Become a Programmer? The Truth Behind 10 Common Myths",
       text: "Thanks to strong demand and high median annual wages, more and more people are pursuing careers as computer programmers. But many people are discouraged by myths they hear about what it takes to become a coding whiz. Today I want to debunk those myths, so anyone who wants to learn new skills or earn more money can move more swiftly toward a job in this industry. Here’s the truth behind 10 common myths about becoming a developer.",
       img: "../assets/img/news6.jpeg",
       link: "https://www.brazen.com/blog/archive/career-growth/want-to-become-a-programmer-the-truth-behind-10-common-myths"

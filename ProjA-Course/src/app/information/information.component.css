@@ -9,6 +9,11 @@
     türkis #66fcf1
     Dark Green #45A29E
 */
+
+.specialNavSpace {
+    padding-top: 6em;
+}
+
 #informationImgTop{
     width: 100%;
     height: 40vh;
